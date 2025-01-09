@@ -31,14 +31,14 @@ A modern, user-friendly calculator app for Android devices, supporting basic ari
 3. Run the following command:
 
 ```bash
-git clone https://github.com/yourusername/calculator-app.git
+git clone https://github.com/Bluentray/calculator-app.git
 ```
 
 #### Alternative: GitHub CLI
 If you have GitHub CLI installed:
 
 ```bash
-gh repo clone yourusername/calculator-app
+gh repo clone Bluentray/calculator-app
 ```
 
 #### After Cloning
@@ -47,7 +47,19 @@ gh repo clone yourusername/calculator-app
 3. Build the project
 4. Run on emulator or physical device
 
+## Continuous Integration
+
+[![Android CI](https://github.com/Bluentray/calculator-app/actions/workflows/android_ci.yml/badge.svg)](https://github.com/Bluentray/calculator-app/actions/workflows/android_ci.yml)
+
+Automated builds and tests are run on every push and pull request.
+
 ## Future Enhancements
 - Scientific calculator mode
 - History of calculations
 - Theme customization
+
+
+git config --global user.name "Bluentray"
+git config --global user.email "karlkindwave@gmail.com"
+
+git remote add origin https://github.com/Bluentray/calculator-app.git
