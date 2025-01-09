@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="description">A simple, user-friendly calculator app supporting basic arithmetic operations</string>
+</resources>
