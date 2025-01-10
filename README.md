@@ -80,6 +80,28 @@ Automated builds and tests are run on every push and pull request.
 - Use environment variables for keystore credentials
 - Never commit keystore or credentials to repository
 
+### Release Build
+- Generate signed release APK:
+  ```bash
+  ./gradlew assembleRelease
+  ```
+- APK location: `app/build/outputs/apk/release/app-release.apk`
+
+#### Keystore Management
+- **IMPORTANT**: Keep `keystore.properties` and `release-keystore.jks` private
+- Do not commit these files to version control
+- Store securely and backup separately
+
+## App Store Submission
+- Refer to [Submission Checklist](SUBMISSION_CHECKLIST.md) for detailed steps
+
+### Submission Workflow
+1. Generate signed release APK
+2. Complete store listing
+3. Upload APK
+4. Set distribution
+5. Await approval
+
 ## Future Enhancements
 - Scientific calculator mode
 - History of calculations
