@@ -53,6 +53,28 @@ gh repo clone Bluentray/calculator-app
 
 Automated builds and tests are run on every push and pull request.
 
+## Google Play Store Submission
+
+### Preparation Checklist
+- [x] Implement core functionality
+- [x] Add unit and instrumentation tests
+- [x] Set up CI/CD
+- [x] Create Play Store metadata
+- [ ] Prepare screenshots
+- [ ] Create app icon
+- [ ] Write privacy policy
+
+### Submission Steps
+1. Generate signed APK
+2. Create Google Play Developer account
+3. Prepare store listing
+4. Upload APK
+5. Set pricing and distribution
+
+### Release Signing
+- Use environment variables for keystore credentials
+- Never commit keystore or credentials to repository
+
 ## Future Enhancements
 - Scientific calculator mode
 - History of calculations
