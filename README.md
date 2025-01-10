@@ -60,9 +60,14 @@ Automated builds and tests are run on every push and pull request.
 - [x] Add unit and instrumentation tests
 - [x] Set up CI/CD
 - [x] Create Play Store metadata
-- [ ] Prepare screenshots
-- [ ] Create app icon
-- [ ] Write privacy policy
+- [x] Prepare screenshots
+- [x] Create app icon
+- [x] Write privacy policy
+
+## App Assets
+- [App Icon](app_icon.svg)
+- [Screenshots Guidelines](SCREENSHOTS.md)
+- [Privacy Policy](PRIVACY_POLICY.md)
 
 ### Submission Steps
 1. Generate signed APK
