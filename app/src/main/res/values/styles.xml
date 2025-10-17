@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Application theme: must be an AppCompat/MaterialComponents descendant -->
+    <style name="Theme.CalculatorApp" parent="Theme.Material3.Light.NoActionBar" />
+
     <style name="NumberButton" parent="Widget.MaterialComponents.Button.TextButton">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
