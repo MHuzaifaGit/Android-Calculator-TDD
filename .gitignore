@@ -36,3 +36,6 @@ out/
 .gradle/
 build/
 
+# Test data files
+test_students.json
+test_students.csv
