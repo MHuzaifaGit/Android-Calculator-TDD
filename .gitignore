@@ -39,3 +39,8 @@ build/
 # Test data files
 test_students.json
 test_students.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
